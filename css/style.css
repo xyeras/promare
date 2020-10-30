@@ -1,0 +1,229 @@
+* {
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-bar {
+    height: 70px;
+    width: 100%;
+    background-color: magenta;
+    position: fixed;
+    opacity: 0.7;
+}
+
+.nav-list {
+    float: right;
+    margin-top: 10px;
+}
+
+.list-item {
+    display: inline-block;
+    background-color: yellow;
+    padding: 8px;
+    margin-right: 20px;
+    border: 3px solid black;
+    border-radius: 6px;
+    color: #c70101;
+    position: relative;
+    font-weight: bold;
+    /* float: left;
+    text-decoration: none; alternative to display property*/
+}
+
+.list-item a {
+    text-decoration: none;
+}
+
+.main-img {
+    height: 1080px;
+    background-image: url(../img/lio-arrow.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* .center-block {
+    background-color: magenta;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+} */
+
+.banner-text {
+    height: 47px;
+    width: 200px;
+    background-color: red;
+    position: relative;
+    top: 30%;
+    font-family: 'Indie Flower', cursive;
+}
+
+.banner-text h1 {
+    color: white;
+}
+
+.banner-text h1:hover {
+    background-color: blue;
+}
+
+.column {
+    border: 3px solid magenta;
+    height: 650px;
+    width: 47%;
+    float: left;
+    margin-left: 25px;
+}
+
+.column p {
+    display: block;
+    margin: auto;
+    margin-top: 175px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.box {
+    height: 280px;
+    width: 600px;
+    border: 3px solid yellow;
+}
+
+.img1 {
+    height: 280px;
+    width: 600px;
+}
+
+.img2 {
+    display: block;
+    margin: auto;
+    margin-top: 50px; /* Might look different on mobile */
+    height: 180px;
+    width: 110px;
+}
+
+.footer {
+    position: relative;
+    top: 75px;
+    height: 150px;
+    clear: both;
+    background-color: magenta;
+}
+
+.footer-col {
+    height: 80px;
+    width: 33%;
+    float: left;
+    margin-left: 18px;
+    text-align: center;
+}
+
+.button {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}
+
+.fab {
+    font-size: 3em;
+    margin: 10px;
+}
+
+.fa-facebook {
+    color: #3b5998;
+}
+
+.fa-twitter-square {
+    color: #00acee;
+}
+
+.container {
+    height: 600px;
+    width: 75%;
+    background-color: dodgerblue;
+}
+
+label {
+    display: inline-block;
+    height: 30px;
+    width: 100px;
+}
+
+#contact-box {
+    display: inline-block;
+    height: 20px;
+    width: 100px;
+}
+
+/* .form {
+    position: relative;
+    top: 75px;
+}
+
+.form input, .form label{
+    margin: 10px;
+} */
+
+/*
+
+Instructor's Solution
+
+If using position, for one thing must use in conjunction between parent and child
+
+Not recommended to use negative numbers
+
+If the layering of items is not correct use z-index
+
+.nav-bar {
+    height: 70px;
+    width: 100%;
+    background-color: magenta;
+    position: fixed;
+    opacity: 0.7;
+    z-index: 1;
+}
+
+.box {
+    height: 280px;
+    width: 600px;
+    border: 3px solid yellow;
+    position: relative;
+    top: 25px;
+    left: 30px;
+}
+
+.col-box1 img {
+    height: 280px;
+    width: 100%;
+}
+
+.col-box2 img {
+    height: 200px;
+    width: 500px;
+    position: absolute;
+    top: 40px;
+    left: 50px;
+}
+
+.footer {
+    position: relative;
+}
+
+Name Preference
+
+aside p {
+
+}
+
+or
+
+.column p {
+    padding: 20px;
+}
+
+*/
